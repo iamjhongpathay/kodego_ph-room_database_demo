@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:paddingStart="15dp"
+    android:paddingEnd="15dp">
+
+    <TextView
+        android:id="@+id/txtEditEmployeeDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/txt_edit_employee_details"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etNewName"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:ems="10"
+        android:hint="@string/et_new_name"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:padding="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtEditEmployeeDetails" />
+
+    <EditText
+        android:id="@+id/etNewSalary"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:ems="10"
+        android:hint="@string/et_new_salary"
+        android:inputType="number"
+        android:maxLength="10"
+        android:minHeight="48dp"
+        android:padding="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/etNewName"
+        app:layout_constraintStart_toStartOf="@+id/etNewName"
+        app:layout_constraintTop_toBottomOf="@+id/etNewName" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/btn_update"
+        app:layout_constraintEnd_toEndOf="@+id/etNewSalary"
+        app:layout_constraintStart_toStartOf="@+id/etNewSalary"
+        app:layout_constraintTop_toBottomOf="@+id/etNewSalary" />
+</androidx.constraintlayout.widget.ConstraintLayout>

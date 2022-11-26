@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Room Database Sample App</string>
+    <string name="et_name">Enter Name</string>
+    <string name="et_salary">Enter Salary</string>
+    <string name="et_new_name">Enter New Name</string>
+    <string name="et_new_salary">Enter New Salary</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_view">View</string>
+    <string name="btn_update">Update</string>
+    <string name="tv_name">Name</string>
+    <string name="tv_salary">Salary</string>
+    <string name="txt_listofemployees">List of Employees</string>
+    <string name="txt_edit_employee_details">Edit Employee Details</string>
+</resources>
